@@ -1,0 +1,172 @@
+/* General Styles */
+header {
+    background-color: #008080; /* Teal Green */
+    color: white;
+    padding: 10px 20px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between; /* Logo di kanan, teks di tengah */
+    align-items: center;
+    padding: 5px;
+    position: relative;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    flex: 1;
+    text-align: center; /* Nama CV berada di tengah */
+}
+
+.logo {
+    height: 150px; /* Ukuran logo */
+    width: 150px;
+    border-radius: 50%; /* Membuat logo berbentuk bulat */
+    object-fit: cover;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px; /* Jarak antar menu */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #FF4500; /* Bright Orange */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF; /* White */
+    color: #2C2C2C; /* Abu-abu Gelap */
+}
+
+header {
+    background-color: #008080; /* Teal Green */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #FFFFFF; /* Putih */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFFFFF; /* Putih */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Catalog Section */
+#catalog {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #FFFFFF; /* Putih */
+    color: #2C2C2C; /* Abu-abu Gelap */
+}
+
+#catalog h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.car-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 0;
+}
+
+.car-card {
+    background-color: #0871fc; /* Bright Orange */
+    padding: 20px;
+    border-radius: 10px;
+    color: #FFFFFF; /* Putih */
+    text-align: center;
+}
+
+.car-card h3 {
+    margin: 0 0 10px;
+}
+
+.car-card p {
+    margin: 0;
+}
+
+/* About Section */
+#about {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #D3D3D3; /* Light Gray */
+    color: #2C2C2C; /* Abu-abu Gelap */
+}
+
+#about h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Contact Section */
+#contact {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #008080; /* Teal Green */
+    color: #FFFFFF; /* Putih */
+}
+
+#contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#contact a {
+    font-size: 1.2em;
+    display: inline-block;
+    background-color: #0871fc; /* Bright Orange */
+    color: #FFFFFF; /* Putih */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    background-color: #FFFFFF; /* Putih */
+    color: #2C2C2C; /* Abu-abu Gelap */
+    transition: 0.3s;
+}
